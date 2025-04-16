@@ -4,7 +4,7 @@ import { Link, NavLink, useNavigate } from "react-router";
 import avatarImg from "../assets/avatar.png";
 import { logout } from "../redux/features/auth/authSlice";
 import { useLogoutUserMutation } from "../redux/features/auth/authApi";
-import CartModal from "../pages/shop/cartModal";
+import CartModal from "../pages/shop/CartModal";
 
 const Navbar = () => {
   //addtocart product
